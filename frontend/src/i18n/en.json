@@ -1,0 +1,223 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Work",
+    "records": "Records",
+    "knowledge": "Knowledge",
+    "contact": "Contact",
+    "admin": "Admin"
+  },
+  "home": {
+    "explore": "Explore",
+    "gallery": "Work & Knowledge",
+    "teaser": {
+      "about": "Who I am and what I make",
+      "projects": "Selected projects",
+      "records": "Fragments and process",
+      "knowledge": "Notes and learning"
+    }
+  },
+  "hero": {
+    "greeting": "Portfolio & Notes",
+    "role": "Engineer / Writer",
+    "subtitle": "Quiet craft, careful delivery. I shape ideas with code and writing.",
+    "cta_projects": "View work",
+    "cta_contact": "Get in touch"
+  },
+  "about": {
+    "title": "About",
+    "subtitle": "I build, I keep notes on living, and I share what I learn — slowly.",
+    "role": "Engineer / Writer / Observer of everyday life",
+    "p1": "I'm ZK. 知墨 is my personal site for work I've made, fragments of life worth keeping, and knowledge I'm happy to share.",
+    "p2": "I prefer whitespace and readability over noise. When I build, I aim for usefulness; when I write, I try to stay brief and clear.",
+    "p3": "Cooking, travel, and music take up a lot of life outside the screen. They shape how I notice detail, rhythm, and taste.",
+    "paths_label": "On this site",
+    "paths_title": "Three things I care about",
+    "paths_subtitle": "Work, records, and knowledge are the main threads of 知墨. Start wherever you like.",
+    "paths": {
+      "works": {
+        "title": "My work",
+        "text": "Projects and experiments — from web apps to small tools — as a record of making.",
+        "cta": "See work"
+      },
+      "life": {
+        "title": "Life notes",
+        "text": "Daily moments, process, and notes from the road — written so they can be read again.",
+        "cta": "See records"
+      },
+      "share": {
+        "title": "Shared knowledge",
+        "text": "Things I've learned and thought through, organized by topic for anyone to browse.",
+        "cta": "See knowledge"
+      }
+    },
+    "interests": {
+      "label": "Off the page",
+      "title": "Things I love",
+      "subtitle": "They may not sit in a project list, but they still shape how I make and notice.",
+      "items": [
+        {
+          "title": "Cooking",
+          "text": "Heat, proportion, waiting — like code, the details decide the taste."
+        },
+        {
+          "title": "Travel",
+          "text": "Walking, light, and the smell of a place. Travel notes will grow in Records."
+        },
+        {
+          "title": "Music",
+          "text": "While working and on the road. Music sets rhythm — and sometimes the mood of a page."
+        }
+      ]
+    },
+    "invite": "If you're also making, learning, or in between — feel free to look around.",
+    "invite_sub": "Want to say hello? The contact page is open.",
+    "cta_knowledge": "Browse knowledge",
+    "cta_contact": "Contact"
+  },
+  "skills": {
+    "title": "Tools I use"
+  },
+  "projects": {
+    "title": "Work",
+    "subtitle": "A selection of things I've built",
+    "demo": "Demo",
+    "source": "Source",
+    "empty": "No projects yet",
+    "menu_title": "Recommended",
+    "item_list": "Projects in this section",
+    "section_empty": "Nothing here yet — more coming soon.",
+    "back_list": "Back to list",
+    "sections": {
+      "all": "All",
+      "featured": "Featured",
+      "web": "Web apps",
+      "backend": "Backend",
+      "tool": "Tools",
+      "experiment": "Experiments"
+    },
+    "section_desc": {
+      "all": "All published projects.",
+      "featured": "Highlighted work.",
+      "web": "Web and frontend projects.",
+      "backend": "API and server-side work.",
+      "tool": "Small tools and widgets.",
+      "experiment": "Prototypes and experiments."
+    }
+  },
+  "knowledge": {
+    "title": "Knowledge",
+    "subtitle": "Things I've learned and thought through",
+    "readMore": "Read more",
+    "close": "Close",
+    "empty": "No articles yet",
+    "menu_title": "Recommended",
+    "article_list": "Articles in this section",
+    "section_empty": "Nothing here yet — more coming soon.",
+    "back_list": "Back to list",
+    "sections": {
+      "all": "All",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "design": "Design & UX",
+      "tools": "Tools & Workflow",
+      "reading": "Reading notes"
+    },
+    "section_desc": {
+      "all": "All published knowledge articles.",
+      "frontend": "UI, components, and frontend engineering notes.",
+      "backend": "APIs, services, and data practices.",
+      "design": "Spacing, typography, and experience design.",
+      "tools": "Dev tools and ways of working.",
+      "reading": "Book notes and reflections."
+    }
+  },
+  "records": {
+    "title": "Records",
+    "subtitle": "Fragments, process notes, and day-to-day writing.",
+    "empty": "This page is reserved for records. Empty for now.",
+    "menu_title": "Recommended",
+    "item_list": "Entries in this section",
+    "section_empty": "Nothing here yet — more coming soon.",
+    "back_list": "Back to list",
+    "readMore": "Read more",
+    "sections": {
+      "all": "All",
+      "daily": "Daily",
+      "process": "Process",
+      "travel": "Travel",
+      "thoughts": "Thoughts"
+    },
+    "section_desc": {
+      "all": "All record entries.",
+      "daily": "Small moments worth keeping.",
+      "process": "Notes from making and working.",
+      "travel": "Notes from the road.",
+      "thoughts": "Half-formed ideas and essays."
+    },
+    "items": {
+      "daily_1_title": "A blank morning page",
+      "daily_1_summary": "Placeholder: a short morning note.",
+      "daily_1_content": "Sample record content. Replace later with real daily notes.\n\nWhitespace can be a beginning too.",
+      "process_1_title": "Notes on shaping 知墨",
+      "process_1_summary": "Placeholder: from one page to many sections.",
+      "process_1_content": "Sample process note: brand first, then separate pages, then the left-menu reading layout.\n\nReal entries will replace this.",
+      "thoughts_1_title": "On going slowly",
+      "thoughts_1_summary": "Placeholder: no need to fill every gap.",
+      "thoughts_1_content": "Sample thought: a site does not have to say everything at once. Leave rooms for the reader to walk into.\n\nMore later."
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "For work, collaboration, or a simple hello — feel free to reach out.",
+    "email_label": "Email",
+    "qr_label": "QR code",
+    "qr_placeholder": "QR code coming soon",
+    "cta": "Send email"
+  },
+  "footer": {
+    "copyright": "This website is created by ZK and is protected by intellectual property rights.",
+    "tagline": "Knowledge, carried in ink",
+    "email": "Email",
+    "qr": "QR code"
+  },
+  "admin": {
+    "login": "Login",
+    "logout": "Logout",
+    "dashboard": "Dashboard",
+    "projects": "Projects",
+    "knowledge": "Knowledge",
+    "username": "Username",
+    "password": "Password",
+    "create": "Create",
+    "edit": "Edit",
+    "delete": "Delete",
+    "save": "Save",
+    "cancel": "Cancel",
+    "published": "Published",
+    "draft": "Draft",
+    "back": "Back",
+    "stats_projects": "Projects",
+    "stats_knowledge": "Knowledge",
+    "upload": "Upload image",
+    "slug": "Slug",
+    "title": "Title",
+    "description": "Description",
+    "summary": "Summary",
+    "content": "Content",
+    "category": "Category",
+    "tags": "Tags (comma-separated)",
+    "cover": "Cover image URL",
+    "tech_stack": "Tech stack (comma-separated)",
+    "demo_url": "Demo URL",
+    "repo_url": "Repository URL",
+    "size": "Size",
+    "sort_order": "Sort order",
+    "lang_ja": "日本語",
+    "lang_zh": "中文",
+    "lang_en": "English",
+    "login_error": "Login failed",
+    "confirm_delete": "Are you sure you want to delete?"
+  }
+}

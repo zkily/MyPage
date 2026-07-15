@@ -1,0 +1,144 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --color-bg: #e6e4df;
+  --color-surface: #f0eee9;
+  --color-surface-hover: #e0ddd6;
+  --color-ink: #2a2825;
+  --color-ink-muted: #6b6760;
+  --color-ink-faint: #9a958c;
+  --color-accent: #3e4f5c;
+  --color-accent-soft: #5c6b55;
+  --color-line: #c9c5bc;
+  --color-wood: #7a6a55;
+  --font-display: "Shippori Mincho", "Noto Serif SC", serif;
+  --font-body: "Zen Maru Gothic", "Noto Sans SC", "Noto Sans JP", sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-bg text-ink font-body antialiased;
+    background-image:
+      radial-gradient(ellipse 70% 45% at 85% 15%, rgba(42, 40, 37, 0.05), transparent 55%),
+      radial-gradient(ellipse 90% 55% at 50% -10%, rgba(92, 107, 85, 0.1), transparent 55%),
+      radial-gradient(ellipse 50% 40% at 0% 80%, rgba(62, 79, 92, 0.07), transparent 50%),
+      linear-gradient(180deg, #ebe9e4 0%, #e6e4df 40%, #e2e0da 100%);
+    min-height: 100vh;
+  }
+
+  ::selection {
+    background: rgba(62, 79, 92, 0.22);
+    color: var(--color-ink);
+  }
+}
+
+@layer utilities {
+  .ink-text {
+    color: var(--color-accent);
+  }
+
+  .section-rule {
+    position: relative;
+  }
+
+  .section-rule::after {
+    content: "";
+    display: block;
+    width: 3rem;
+    height: 1px;
+    margin-top: 1rem;
+    background: linear-gradient(90deg, var(--color-ink) 0%, var(--color-line) 70%, transparent);
+    opacity: 0.45;
+  }
+
+  .washi-panel {
+    background: color-mix(in srgb, var(--color-surface) 88%, white);
+    border: 1px solid var(--color-line);
+    position: relative;
+  }
+
+  /* 山水余韵：分区淡墨远山剪影 */
+  .shan-shui-wash {
+    position: relative;
+  }
+
+  .shan-shui-wash::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: min(42%, 28rem);
+    height: 12rem;
+    pointer-events: none;
+    opacity: 0.07;
+    background:
+      radial-gradient(ellipse 80% 60% at 70% 40%, #2a2825 0%, transparent 70%),
+      radial-gradient(ellipse 50% 40% at 40% 70%, #2a2825 0%, transparent 65%);
+  }
+
+  .noise-bg::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.045;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    z-index: 0;
+  }
+
+  .marquee-track {
+    animation: marquee 42s linear infinite;
+  }
+
+  .marquee-track:hover {
+    animation-play-state: paused;
+  }
+
+  @keyframes marquee {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+
+  .reveal-up {
+    opacity: 0;
+    transform: translateY(18px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+  }
+
+  .reveal-up.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-7 py-2.5 text-sm tracking-wide;
+    background: var(--color-accent);
+    color: #f5f3ee;
+    border: 1px solid var(--color-accent);
+    transition: background 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+  }
+
+  .btn-primary:hover {
+    background: #334351;
+    border-color: #334351;
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center justify-center px-7 py-2.5 text-sm tracking-wide;
+    color: var(--color-ink-muted);
+    border: 1px solid var(--color-line);
+    background: transparent;
+    transition: color 0.3s ease, border-color 0.3s ease, background 0.3s ease;
+  }
+
+  .btn-ghost:hover {
+    color: var(--color-ink);
+    border-color: var(--color-ink-muted);
+    background: color-mix(in srgb, var(--color-surface) 70%, transparent);
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "nav": {
+    "home": "ホーム",
+    "about": "わたし",
+    "projects": "作品",
+    "records": "記録",
+    "knowledge": "知識",
+    "contact": "連絡",
+    "admin": "管理"
+  },
+  "home": {
+    "explore": "セクション",
+    "gallery": "作品 & 知識",
+    "teaser": {
+      "about": "だれで、何をつくるか",
+      "projects": "手がけたもの",
+      "records": "日々の断片",
+      "knowledge": "学んだこと"
+    }
+  },
+  "hero": {
+    "greeting": "ポートフォリオ & ノート",
+    "role": "エンジニア / 書き手",
+    "subtitle": "静かに作り、丁寧に届ける。コードと文章で、考えをかたちに。",
+    "cta_projects": "作品を見る",
+    "cta_contact": "連絡する"
+  },
+  "about": {
+    "title": "わたしについて",
+    "subtitle": "コードを書き、暮らしを記し、学んだことをゆっくり共有する。",
+    "role": "エンジニア / 書き手 / 暮らしの観察者",
+    "p1": "ZK です。知墨は、作品を置き、日々の断片を残し、分かち合いたい知識を整えるための個人サイトです。",
+    "p2": "情報を詰め込むより、余白と読みやすさを大切にしています。作るときは実用を、書くときは短く明快に。",
+    "p3": "料理・旅・音楽も生活の大きな部分です。細部やリズム、味わいの感覚は、ここにも影響しています。",
+    "paths_label": "このサイトで",
+    "paths_title": "大切にしている三つのこと",
+    "paths_subtitle": "作品・記録・知識が知墨の主線です。興味のあるところからどうぞ。",
+    "paths": {
+      "works": {
+        "title": "自分の作品",
+        "text": "手がけたプロジェクトと実験。Web から小さな道具まで、「つくった」記録。",
+        "cta": "作品を見る"
+      },
+      "life": {
+        "title": "暮らしの経験",
+        "text": "日常や過程、旅のメモ。残したい瞬間を、読める記録にする。",
+        "cta": "記録を見る"
+      },
+      "share": {
+        "title": "知識の共有",
+        "text": "学んだこと・考えたことをテーマ別に整理し、誰でも読める形で置く。",
+        "cta": "知識を見る"
+      }
+    },
+    "interests": {
+      "label": "暮らしの中で",
+      "title": "好きなこと",
+      "subtitle": "作品一覧には出なくても、作り方や見方に影響しているものたちです。",
+      "items": [
+        {
+          "title": "料理",
+          "text": "火加減や比率、待つ時間。コードと同じで、細部が味を決める。"
+        },
+        {
+          "title": "旅",
+          "text": "歩き、光や匂いを覚える。旅のメモは「記録」に少しずつ足していきます。"
+        },
+        {
+          "title": "音楽",
+          "text": "作業中も移動中も聴く。気分とリズムを整え、文章の背景になることもある。"
+        }
+      ]
+    },
+    "invite": "つくっている人、学んでいる人、道の途中の人——気軽に覗いてください。",
+    "invite_sub": "交流したいときは、連絡ページからどうぞ。",
+    "cta_knowledge": "知識を見る",
+    "cta_contact": "連絡する"
+  },
+  "skills": {
+    "title": "つかっている技術"
+  },
+  "projects": {
+    "title": "作品",
+    "subtitle": "手がけたプロジェクトから、いくつか",
+    "demo": "デモ",
+    "source": "ソース",
+    "empty": "まだ作品がありません",
+    "menu_title": "おすすめ",
+    "item_list": "このセクションの作品",
+    "section_empty": "このセクションはまだ空です。これから足していきます。",
+    "back_list": "一覧に戻る",
+    "sections": {
+      "all": "すべて",
+      "featured": "注目",
+      "web": "Webアプリ",
+      "backend": "サーバー",
+      "tool": "ツール",
+      "experiment": "実験"
+    },
+    "section_desc": {
+      "all": "公開中の作品すべて。",
+      "featured": "特に紹介したいプロジェクト。",
+      "web": "Web・フロント寄りの作品。",
+      "backend": "API・サーバー寄りの作品。",
+      "tool": "小さな道具やウィジェット。",
+      "experiment": "実験的な試作。"
+    }
+  },
+  "knowledge": {
+    "title": "知識",
+    "subtitle": "学んだこと、考えたこと",
+    "readMore": "続きを読む",
+    "close": "閉じる",
+    "empty": "まだ記事がありません",
+    "menu_title": "おすすめ",
+    "article_list": "このセクションの記事",
+    "section_empty": "このセクションはまだ空です。これから足していきます。",
+    "back_list": "一覧に戻る",
+    "sections": {
+      "all": "すべて",
+      "frontend": "フロントエンド",
+      "backend": "バックエンド",
+      "design": "デザインと体験",
+      "tools": "ツールと効率",
+      "reading": "読書ノート"
+    },
+    "section_desc": {
+      "all": "公開中の知識記事すべて。",
+      "frontend": "UI・コンポーネント・フロントのメモ。",
+      "backend": "API・サーバー・データまわりの実践。",
+      "design": "余白・タイポ・体験についての思考。",
+      "tools": "開発ツールと効率の方法。",
+      "reading": "読書メモと学びの記録。"
+    }
+  },
+  "records": {
+    "title": "記録",
+    "subtitle": "日々の断片や過程のメモ。",
+    "empty": "記録はこれから。いまは余白のまま置いています。",
+    "menu_title": "おすすめ",
+    "item_list": "このセクションの記録",
+    "section_empty": "このセクションはまだ空です。これから足していきます。",
+    "back_list": "一覧に戻る",
+    "readMore": "続きを読む",
+    "sections": {
+      "all": "すべて",
+      "daily": "日常",
+      "process": "過程",
+      "travel": "旅",
+      "thoughts": "随想"
+    },
+    "section_desc": {
+      "all": "すべての記録。",
+      "daily": "日常の小さな記録。",
+      "process": "制作や仕事の過程メモ。",
+      "travel": "移動と見聞きのノート。",
+      "thoughts": "まだ形にならない考え。"
+    },
+    "items": {
+      "daily_1_title": "朝の余白",
+      "daily_1_summary": "仮：朝の短いメモのサンプル。",
+      "daily_1_content": "記録セクションのサンプルです。あとで本物の日常メモに差し替えます。\n\n余白も、はじまりのひとつ。",
+      "process_1_title": "知墨サイトのメモ",
+      "process_1_summary": "仮：単一ページから多ページへの過程。",
+      "process_1_content": "サンプル過程記録：ブランドを決め、ページを分け、左右カラムの閲覧構造を足した、という流れ。\n\n本番の内容はこれから。",
+      "thoughts_1_title": "「ゆっくり」について",
+      "thoughts_1_summary": "仮：すべてを一度に埋めなくていい。",
+      "thoughts_1_content": "サンプル随想：ページは全部を語り尽くさなくていい。区画を分けて、読者が歩いて入る余白を残す。\n\n続きはあとで。"
+    }
+  },
+  "contact": {
+    "title": "連絡",
+    "subtitle": "仕事の相談、コラボ、ただのあいさつも歓迎です。",
+    "email_label": "メール",
+    "qr_label": "QRコード",
+    "qr_placeholder": "QRコードは後日追加",
+    "cta": "メールを送る"
+  },
+  "footer": {
+    "copyright": "本サイトは ZK が制作し、知的財産権を有します。",
+    "tagline": "知を墨に託す",
+    "email": "メール",
+    "qr": "QRコード"
+  },
+  "admin": {
+    "login": "ログイン",
+    "logout": "ログアウト",
+    "dashboard": "ダッシュボード",
+    "projects": "作品管理",
+    "knowledge": "ナレッジ管理",
+    "username": "ユーザー名",
+    "password": "パスワード",
+    "create": "新規作成",
+    "edit": "編集",
+    "delete": "削除",
+    "save": "保存",
+    "cancel": "キャンセル",
+    "published": "公開",
+    "draft": "下書き",
+    "back": "戻る",
+    "stats_projects": "作品",
+    "stats_knowledge": "ナレッジ",
+    "upload": "画像をアップロード",
+    "slug": "スラッグ",
+    "title": "タイトル",
+    "description": "説明",
+    "summary": "概要",
+    "content": "本文",
+    "category": "カテゴリ",
+    "tags": "タグ（カンマ区切り）",
+    "cover": "カバー画像 URL",
+    "tech_stack": "技術スタック（カンマ区切り）",
+    "demo_url": "デモ URL",
+    "repo_url": "リポジトリ URL",
+    "size": "サイズ",
+    "sort_order": "並び順",
+    "lang_ja": "日本語",
+    "lang_zh": "中文",
+    "lang_en": "English",
+    "login_error": "ログインに失敗しました",
+    "confirm_delete": "本当に削除しますか？"
+  }
+}

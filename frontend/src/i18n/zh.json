@@ -1,0 +1,223 @@
+{
+  "nav": {
+    "home": "首页",
+    "about": "关于",
+    "projects": "作品",
+    "records": "记录",
+    "knowledge": "知识",
+    "contact": "联系",
+    "admin": "管理"
+  },
+  "home": {
+    "explore": "浏览板块",
+    "gallery": "作品 & 知识",
+    "teaser": {
+      "about": "我是谁、在做什么",
+      "projects": "做过的项目",
+      "records": "日常与片段",
+      "knowledge": "所学所记"
+    }
+  },
+  "hero": {
+    "greeting": "作品集 & 笔记",
+    "role": "工程师 / 写作者",
+    "subtitle": "安静地创作，认真地交付。用代码与文字，把想法落成形态。",
+    "cta_projects": "查看作品",
+    "cta_contact": "联系我"
+  },
+  "about": {
+    "title": "关于我",
+    "subtitle": "写代码，也记录生活；把学到的事，慢慢分享出去。",
+    "role": "工程师 / 写作者 / 生活观察者",
+    "p1": "我是 ZK。知墨是我的个人站点——用来放作品、记下生活里的片段，也整理愿意和大家分享的知识。",
+    "p2": "比起堆满信息，我更在意留白与可读性：让页面安静一点，让内容自己说话。做东西时偏实用，写东西时尽量短而清楚。",
+    "p3": "站外的时间里，烹饪、旅游和音乐占了很多位置。它们同样影响我怎么看细节、节奏和味道。",
+    "paths_label": "这站有什么",
+    "paths_title": "三件我想认真做的事",
+    "paths_subtitle": "作品、记录与知识，是知墨的三条主线。欢迎按兴趣走进去。",
+    "paths": {
+      "works": {
+        "title": "自己的作品",
+        "text": "做过的项目与实验。从网页到小工具，记录「做出来」的过程。",
+        "cta": "去看作品"
+      },
+      "life": {
+        "title": "生活经验",
+        "text": "日常、过程与路上的笔记。把值得留下的片刻，写成可读的记录。",
+        "cta": "去看记录"
+      },
+      "share": {
+        "title": "知识分享",
+        "text": "整理学过的、想清楚的事，按主题分类，方便大家查阅与交流。",
+        "cta": "去看知识"
+      }
+    },
+    "interests": {
+      "label": "生活里",
+      "title": "我喜欢的几件事",
+      "subtitle": "它们不一定出现在作品列表里，却常常影响我怎么创作与观察。",
+      "items": [
+        {
+          "title": "烹饪",
+          "text": "喜欢从食材到成品的节奏：火候、比例、等待。和写代码一样，细节决定味道。"
+        },
+        {
+          "title": "旅游",
+          "text": "愿意走路、停下来看地方的光与气味。出行笔记会慢慢放进「记录」。"
+        },
+        {
+          "title": "音乐",
+          "text": "工作时听，路上也听。音乐帮我校准情绪与节奏，有时也成为文章的背景音。"
+        }
+      ]
+    },
+    "invite": "若你也在做、在学、在走路上——欢迎随便逛逛。",
+    "invite_sub": "有想法或想交流，可以通过联系页找到我。",
+    "cta_knowledge": "浏览知识",
+    "cta_contact": "联系我"
+  },
+  "skills": {
+    "title": "常用技术"
+  },
+  "projects": {
+    "title": "作品",
+    "subtitle": "精选的一部分项目",
+    "demo": "演示",
+    "source": "源码",
+    "empty": "暂无作品",
+    "menu_title": "推荐板块",
+    "item_list": "本板块作品",
+    "section_empty": "该板块暂无作品，之后会继续补充。",
+    "back_list": "返回列表",
+    "sections": {
+      "all": "全部",
+      "featured": "精选",
+      "web": "网页应用",
+      "backend": "服务端",
+      "tool": "工具",
+      "experiment": "实验"
+    },
+    "section_desc": {
+      "all": "所有已发布的作品。",
+      "featured": "重点展示的精选项目。",
+      "web": "网页与前端相关作品。",
+      "backend": "接口与服务端相关作品。",
+      "tool": "实用小工具与组件。",
+      "experiment": "实验性尝试与原型。"
+    }
+  },
+  "knowledge": {
+    "title": "知识",
+    "subtitle": "所学所记",
+    "readMore": "阅读更多",
+    "close": "关闭",
+    "empty": "暂无文章",
+    "menu_title": "推荐板块",
+    "article_list": "本板块文章",
+    "section_empty": "该板块暂无内容，之后会继续补充。",
+    "back_list": "返回列表",
+    "sections": {
+      "all": "全部",
+      "frontend": "前端",
+      "backend": "后端",
+      "design": "设计与体验",
+      "tools": "工具与效率",
+      "reading": "阅读笔记"
+    },
+    "section_desc": {
+      "all": "所有已发布的知识文章。",
+      "frontend": "界面、组件与前端工程相关的笔记。",
+      "backend": "接口、服务端与数据相关的实践。",
+      "design": "排版、留白与体验设计的思考。",
+      "tools": "开发工具、流程与效率方法。",
+      "reading": "读书摘录与延伸思考。"
+    }
+  },
+  "records": {
+    "title": "记录",
+    "subtitle": "日常片段、过程与随记。",
+    "empty": "这里之后会放记录。现在先留一页空白。",
+    "menu_title": "推荐板块",
+    "item_list": "本板块记录",
+    "section_empty": "该板块暂无记录，之后会继续补充。",
+    "back_list": "返回列表",
+    "readMore": "阅读更多",
+    "sections": {
+      "all": "全部",
+      "daily": "日常",
+      "process": "过程",
+      "travel": "出行",
+      "thoughts": "随想"
+    },
+    "section_desc": {
+      "all": "所有记录条目。",
+      "daily": "日常里值得留下的片刻。",
+      "process": "创作与工作过程中的片段。",
+      "travel": "出行见闻与路上的笔记。",
+      "thoughts": "未成形的想法与随笔。"
+    },
+    "items": {
+      "daily_1_title": "清晨的空白页",
+      "daily_1_summary": "占位：一段关于晨间写作的短记。",
+      "daily_1_content": "这是记录板块的示例内容。之后可以换成真实的日常记录。\n\n留白本身也是一种开始。",
+      "process_1_title": "知墨站点成型笔记",
+      "process_1_summary": "占位：从单页到多板块的改版过程。",
+      "process_1_content": "示例过程记录：先定品牌与气质，再拆成独立页面，最后补上知识/作品/记录的左右栏阅读结构。\n\n正式内容会陆续替换这里。",
+      "thoughts_1_title": "关于「慢」的一点想法",
+      "thoughts_1_summary": "占位：不赶着填满每一个空隙。",
+      "thoughts_1_content": "示例随想：页面不必一次说完所有事。分板块、分页面，让读者自己走进去。\n\n更多随想稍后补充。"
+    }
+  },
+  "contact": {
+    "title": "联系",
+    "subtitle": "工作合作、一起做点什么，或只是打个招呼，都欢迎。",
+    "email_label": "邮件",
+    "qr_label": "二维码",
+    "qr_placeholder": "二维码稍后添加",
+    "cta": "发送邮件"
+  },
+  "footer": {
+    "copyright": "本网站由 ZK 制作，并享有知识产权保护。",
+    "tagline": "知以墨寄",
+    "email": "邮件",
+    "qr": "二维码"
+  },
+  "admin": {
+    "login": "登录",
+    "logout": "退出",
+    "dashboard": "仪表盘",
+    "projects": "作品管理",
+    "knowledge": "知识管理",
+    "username": "用户名",
+    "password": "密码",
+    "create": "新建",
+    "edit": "编辑",
+    "delete": "删除",
+    "save": "保存",
+    "cancel": "取消",
+    "published": "已发布",
+    "draft": "草稿",
+    "back": "返回",
+    "stats_projects": "作品",
+    "stats_knowledge": "知识",
+    "upload": "上传图片",
+    "slug": "标识",
+    "title": "标题",
+    "description": "描述",
+    "summary": "摘要",
+    "content": "正文",
+    "category": "分类",
+    "tags": "标签（逗号分隔）",
+    "cover": "封面图 URL",
+    "tech_stack": "技术栈（逗号分隔）",
+    "demo_url": "演示链接",
+    "repo_url": "仓库链接",
+    "size": "尺寸",
+    "sort_order": "排序",
+    "lang_ja": "日本語",
+    "lang_zh": "中文",
+    "lang_en": "English",
+    "login_error": "登录失败",
+    "confirm_delete": "确定要删除吗？"
+  }
+}
